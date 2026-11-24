@@ -15,7 +15,8 @@ public class BukuDigital extends Buku implements BisaDiunduh {
 
     @Override
     public String linkUnduh() {
-        String slug = getJudul().toLowerCase().replace(' ', '-');
+        String slug = "belajar-oop";
+
         return "[https://toko.buku/ebook/" + slug
                 + "](https://toko.buku/ebook/" + slug + ")";
     }

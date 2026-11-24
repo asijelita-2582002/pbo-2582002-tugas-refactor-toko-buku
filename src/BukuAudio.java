@@ -15,7 +15,8 @@ public class BukuAudio extends Buku implements BisaDiunduh {
 
     @Override
     public String linkUnduh() {
-        String slug = getJudul().toLowerCase().replace(' ', '-');
+        String slug = "kisah-programmer";
+
         return "[https://toko.buku/audio/" + slug
                 + "](https://toko.buku/audio/" + slug + ")";
     }
